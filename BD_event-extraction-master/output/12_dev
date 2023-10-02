@@ -1,0 +1,5 @@
+
+[trigger classification]	P=0.847	R=0.849	F1=0.848
+[argument classification]	P=0.579	R=0.571	F1=0.575
+[trigger identification]	P=0.853	R=0.855	F1=0.854
+[argument identification]	P=0.599	R=0.591	F1=0.595
