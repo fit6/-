@@ -1,0 +1,887 @@
+{
+  "ace": {
+    "Movement:Transport": [
+      "Destination",
+      "Agent",
+      "Place",
+      "Vehicle",
+      "Origin",
+      "Victim",
+      "Artifact"
+    ],
+    "Personnel:Elect": [
+      "Entity",
+      "Place",
+      "Person"
+    ],
+    "Personnel:Start-Position": [
+      "Entity",
+      "Place",
+      "Person"
+    ],
+    "Personnel:Nominate": [
+      "Person",
+      "Agent"
+    ],
+    "Personnel:End-Position": [
+      "Entity",
+      "Place",
+      "Person"
+    ],
+    "Conflict:Attack": [
+      "Place",
+      "Attacker",
+      "Instrument",
+      "Victim",
+      "Target"
+    ],
+    "Contact:Meet": [
+      "Place",
+      "Entity"
+    ],
+    "Life:Marry": [
+      "Place",
+      "Person"
+    ],
+    "Contact:Phone-Write": [
+      "Place",
+      "Entity"
+    ],
+    "Transaction:Transfer-Money": [
+      "Place",
+      "Recipient",
+      "Giver",
+      "Beneficiary"
+    ],
+    "Justice:Sue": [
+      "Adjudicator",
+      "Place",
+      "Plaintiff",
+      "Defendant"
+    ],
+    "Conflict:Demonstrate": [
+      "Place",
+      "Entity"
+    ],
+    "Business:End-Org": [
+      "Place",
+      "Org"
+    ],
+    "Life:Injure": [
+      "Place",
+      "Agent",
+      "Instrument",
+      "Victim"
+    ],
+    "Life:Die": [
+      "Place",
+      "Agent",
+      "Person",
+      "Instrument",
+      "Victim"
+    ],
+    "Justice:Arrest-Jail": [
+      "Place",
+      "Agent",
+      "Person"
+    ],
+    "Transaction:Transfer-Ownership": [
+      "Place",
+      "Seller",
+      "Beneficiary",
+      "Artifact",
+      "Buyer"
+    ],
+    "Business:Start-Org": [
+      "Place",
+      "Agent",
+      "Org"
+    ],
+    "Justice:Execute": [
+      "Place",
+      "Agent",
+      "Person"
+    ],
+    "Justice:Trial-Hearing": [
+      "Prosecutor",
+      "Place",
+      "Adjudicator",
+      "Defendant"
+    ],
+    "Justice:Sentence": [
+      "Adjudicator",
+      "Place",
+      "Defendant"
+    ],
+    "Life:Be-Born": [
+      "Place",
+      "Person"
+    ],
+    "Justice:Charge-Indict": [
+      "Prosecutor",
+      "Place",
+      "Adjudicator",
+      "Defendant"
+    ],
+    "Justice:Convict": [
+      "Adjudicator",
+      "Place",
+      "Defendant"
+    ],
+    "Business:Declare-Bankruptcy": [
+      "Place",
+      "Org"
+    ],
+    "Justice:Release-Parole": [
+      "Entity",
+      "Place",
+      "Person"
+    ],
+    "Justice:Fine": [
+      "Adjudicator",
+      "Place",
+      "Entity"
+    ],
+    "Justice:Pardon": [
+      "Adjudicator",
+      "Place",
+      "Defendant"
+    ],
+    "Justice:Appeal": [
+      "Adjudicator",
+      "Place",
+      "Plaintiff"
+    ],
+    "Business:Merge-Org": [
+      "Org"
+    ],
+    "Justice:Extradite": [
+      "Origin",
+      "Destination",
+      "Agent",
+      "Person"
+    ],
+    "Life:Divorce": [
+      "Person"
+    ],
+    "Justice:Acquit": [
+      "Adjudicator",
+      "Defendant"
+    ]
+  },
+  "ere": {
+    "personnel:endposition": [
+      "place",
+      "entity",
+      "person"
+    ],
+    "justice:fine": [
+      "place",
+      "entity",
+      "adjudicator"
+    ],
+    "transaction:transfermoney": [
+      "beneficiary",
+      "giver",
+      "place",
+      "recipient"
+    ],
+    "justice:convict": [
+      "defendant",
+      "place",
+      "adjudicator"
+    ],
+    "conflict:attack": [
+      "place",
+      "attacker",
+      "instrument",
+      "target"
+    ],
+    "personnel:startposition": [
+      "place",
+      "entity",
+      "person"
+    ],
+    "life:die": [
+      "place",
+      "instrument",
+      "agent",
+      "victim"
+    ],
+    "justice:sentence": [
+      "defendant",
+      "place",
+      "adjudicator"
+    ],
+    "justice:arrestjail": [
+      "place",
+      "agent",
+      "person"
+    ],
+    "justice:pardon": [
+      "defendant",
+      "place",
+      "adjudicator"
+    ],
+    "justice:releaseparole": [
+      "place",
+      "agent",
+      "person"
+    ],
+    "movement:transportartifact": [
+      "agent",
+      "destination",
+      "origin",
+      "instrument",
+      "artifact"
+    ],
+    "contact:contact": [
+      "place",
+      "entity"
+    ],
+    "transaction:transferownership": [
+      "giver",
+      "recipient",
+      "thing",
+      "beneficiary",
+      "place"
+    ],
+    "transaction:transaction": [
+      "beneficiary",
+      "giver",
+      "place",
+      "recipient"
+    ],
+    "contact:meet": [
+      "place",
+      "entity"
+    ],
+    "contact:broadcast": [
+      "place",
+      "audience",
+      "entity"
+    ],
+    "movement:transportperson": [
+      "agent",
+      "instrument",
+      "person",
+      "destination",
+      "origin"
+    ],
+    "contact:correspondence": [
+      "place",
+      "entity"
+    ],
+    "justice:execute": [
+      "place",
+      "agent",
+      "person"
+    ],
+    "justice:trialhearing": [
+      "defendant",
+      "place",
+      "adjudicator",
+      "prosecutor"
+    ],
+    "life:beborn": [
+      "place",
+      "person"
+    ],
+    "justice:chargeindict": [
+      "defendant",
+      "place",
+      "adjudicator",
+      "prosecutor"
+    ],
+    "conflict:demonstrate": [
+      "place",
+      "entity"
+    ],
+    "personnel:elect": [
+      "place",
+      "agent",
+      "person"
+    ],
+    "business:endorg": [
+      "place",
+      "org"
+    ],
+    "life:injure": [
+      "place",
+      "instrument",
+      "agent",
+      "victim"
+    ],
+    "manufacture:artifact": [
+      "place",
+      "agent",
+      "instrument",
+      "artifact"
+    ],
+    "life:marry": [
+      "place",
+      "person"
+    ],
+    "business:startorg": [
+      "place",
+      "agent",
+      "org"
+    ],
+    "life:divorce": [
+      "place",
+      "person"
+    ],
+    "justice:sue": [
+      "defendant",
+      "place",
+      "adjudicator",
+      "plaintiff"
+    ],
+    "justice:extradite": [
+      "agent",
+      "person",
+      "destination",
+      "origin"
+    ],
+    "justice:acquit": [
+      "defendant",
+      "place",
+      "adjudicator"
+    ],
+    "justice:appeal": [
+      "defendant",
+      "place",
+      "adjudicator",
+      "prosecutor"
+    ],
+    "personnel:nominate": [
+      "agent",
+      "person"
+    ],
+    "business:declarebankruptcy": [
+      "org"
+    ],
+    "business:mergeorg": [
+      "org"
+    ]
+  },
+  "maven": {
+    "Achieve": [],
+    "Action": [],
+    "Adducing": [],
+    "Agree_or_refuse_to_act": [],
+    "Aiming": [],
+    "Arranging": [],
+    "Arrest": [],
+    "Arriving": [],
+    "Assistance": [],
+    "Attack": [],
+    "Award": [],
+    "Bearing_arms": [],
+    "Becoming": [],
+    "Becoming_a_member": [],
+    "Being_in_operation": [],
+    "Besieging": [],
+    "Bodily_harm": [],
+    "Body_movement": [],
+    "Breathing": [],
+    "Bringing": [],
+    "Building": [],
+    "Carry_goods": [],
+    "Catastrophe": [],
+    "Causation": [],
+    "Cause_change_of_position_on_a_scale": [],
+    "Cause_change_of_strength": [],
+    "Cause_to_amalgamate": [],
+    "Cause_to_be_included": [],
+    "Cause_to_make_progress": [],
+    "Change": [],
+    "Change_event_time": [],
+    "Change_of_leadership": [],
+    "Change_sentiment": [],
+    "Change_tool": [],
+    "Check": [],
+    "Choosing": [],
+    "Collaboration": [],
+    "Come_together": [],
+    "Coming_to_be": [],
+    "Coming_to_believe": [],
+    "Commerce_buy": [],
+    "Commerce_pay": [],
+    "Commerce_sell": [],
+    "Commitment": [],
+    "Committing_crime": [],
+    "Communication": [],
+    "Competition": [],
+    "Confronting_problem": [],
+    "Connect": [],
+    "Conquering": [],
+    "Containing": [],
+    "Control": [],
+    "Convincing": [],
+    "Cost": [],
+    "Create_artwork": [],
+    "Creating": [],
+    "Criminal_investigation": [],
+    "Cure": [],
+    "Damaging": [],
+    "Death": [],
+    "Deciding": [],
+    "Defending": [],
+    "Departing": [],
+    "Destroying": [],
+    "Dispersal": [],
+    "Earnings_and_losses": [],
+    "Education_teaching": [],
+    "Emergency": [],
+    "Employment": [],
+    "Emptying": [],
+    "Escaping": [],
+    "Exchange": [],
+    "Expansion": [],
+    "Expend_resource": [],
+    "Expressing_publicly": [],
+    "Extradition": [],
+    "Filling": [],
+    "Forming_relationships": [],
+    "GetReady": [],
+    "Getting": [],
+    "GiveUp": [],
+    "Giving": [],
+    "Having_or_lacking_access": [],
+    "Hiding_objects": [],
+    "Hindering": [],
+    "Hold": [],
+    "Hostile_encounter": [],
+    "Imposing_obligation": [],
+    "Incident": [],
+    "Influence": [],
+    "Ingestion": [],
+    "Institutionalization": [],
+    "Judgment_communication": [],
+    "Justifying": [],
+    "Kidnapping": [],
+    "Killing": [],
+    "Know": [],
+    "Labeling": [],
+    "Legal_rulings": [],
+    "Legality": [],
+    "Lighting": [],
+    "Limiting": [],
+    "Manufacturing": [],
+    "Military_operation": [],
+    "Motion": [],
+    "Motion_directional": [],
+    "Name_conferral": [],
+    "Openness": [],
+    "Participation": [],
+    "Patrolling": [],
+    "Perception_active": [],
+    "Placing": [],
+    "Practice": [],
+    "Presence": [],
+    "Preserving": [],
+    "Preventing_or_letting": [],
+    "Prison": [],
+    "Process_end": [],
+    "Process_start": [],
+    "Protest": [],
+    "Publishing": [],
+    "Quarreling": [],
+    "Ratification": [],
+    "Receiving": [],
+    "Recording": [],
+    "Recovering": [],
+    "Reforming_a_system": [],
+    "Releasing": [],
+    "Removing": [],
+    "Renting": [],
+    "Reporting": [],
+    "Request": [],
+    "Rescuing": [],
+    "Research": [],
+    "Resolve_problem": [],
+    "Response": [],
+    "Reveal_secret": [],
+    "Revenge": [],
+    "Rewards_and_punishments": [],
+    "Risk": [],
+    "Rite": [],
+    "Robbery": [],
+    "Scouring": [],
+    "Scrutiny": [],
+    "Self_motion": [],
+    "Sending": [],
+    "Sign_agreement": [],
+    "Social_event": [],
+    "Statement": [],
+    "Submitting_documents": [],
+    "Supply": [],
+    "Supporting": [],
+    "Surrendering": [],
+    "Surrounding": [],
+    "Suspicion": [],
+    "Telling": [],
+    "Temporary_stay": [],
+    "Terrorism": [],
+    "Testing": [],
+    "Theft": [],
+    "Traveling": [],
+    "Use_firearm": [],
+    "Using": [],
+    "Violence": [],
+    "Vocalizations": [],
+    "Warning": [],
+    "Wearing": [],
+    "Writing": []
+  },
+  "DuEE": {
+    "财经/交易-出售/收购": [
+      "时间",
+      "出售方",
+      "交易物",
+      "出售价格",
+      "收购方"
+    ],
+    "财经/交易-跌停": [
+      "时间",
+      "跌停股票"
+    ],
+    "财经/交易-加息": [
+      "时间",
+      "加息幅度",
+      "加息机构"
+    ],
+    "财经/交易-降价": [
+      "时间",
+      "降价方",
+      "降价物",
+      "降价幅度"
+    ],
+    "财经/交易-降息": [
+      "时间",
+      "降息幅度",
+      "降息机构"
+    ],
+    "财经/交易-融资": [
+      "时间",
+      "跟投方",
+      "领投方",
+      "融资轮次",
+      "融资金额",
+      "融资方"
+    ],
+    "财经/交易-上市": [
+      "时间",
+      "地点",
+      "上市企业",
+      "融资金额"
+    ],
+    "财经/交易-涨价": [
+      "时间",
+      "涨价幅度",
+      "涨价物",
+      "涨价方"
+    ],
+    "财经/交易-涨停": [
+      "时间",
+      "涨停股票"
+    ],
+    "产品行为-发布": [
+      "时间",
+      "发布产品",
+      "发布方"
+    ],
+    "产品行为-获奖": [
+      "时间",
+      "获奖人",
+      "奖项",
+      "颁奖机构"
+    ],
+    "产品行为-上映": [
+      "时间",
+      "上映方",
+      "上映影视"
+    ],
+    "产品行为-下架": [
+      "时间",
+      "下架产品",
+      "被下架方",
+      "下架方"
+    ],
+    "产品行为-召回": [
+      "时间",
+      "召回内容",
+      "召回方"
+    ],
+    "交往-道歉": [
+      "时间",
+      "道歉对象",
+      "道歉者"
+    ],
+    "交往-点赞": [
+      "时间",
+      "点赞方",
+      "点赞对象"
+    ],
+    "交往-感谢": [
+      "时间",
+      "致谢人",
+      "被感谢人"
+    ],
+    "交往-会见": [
+      "时间",
+      "地点",
+      "会见主体",
+      "会见对象"
+    ],
+    "交往-探班": [
+      "时间",
+      "探班主体",
+      "探班对象"
+    ],
+    "竞赛行为-夺冠": [
+      "时间",
+      "冠军",
+      "夺冠赛事"
+    ],
+    "竞赛行为-晋级": [
+      "时间",
+      "晋级方",
+      "晋级赛事"
+    ],
+    "竞赛行为-禁赛": [
+      "时间",
+      "禁赛时长",
+      "被禁赛人员",
+      "禁赛机构"
+    ],
+    "竞赛行为-胜负": [
+      "时间",
+      "败者",
+      "胜者",
+      "赛事名称"
+    ],
+    "竞赛行为-退赛": [
+      "时间",
+      "退赛赛事",
+      "退赛方"
+    ],
+    "竞赛行为-退役": [
+      "时间",
+      "退役者"
+    ],
+    "人生-产子/女": [
+      "时间",
+      "产子者",
+      "出生者"
+    ],
+    "人生-出轨": [
+      "时间",
+      "出轨方",
+      "出轨对象"
+    ],
+    "人生-订婚": [
+      "时间",
+      "订婚主体"
+    ],
+    "人生-分手": [
+      "时间",
+      "分手双方"
+    ],
+    "人生-怀孕": [
+      "时间",
+      "怀孕者"
+    ],
+    "人生-婚礼": [
+      "时间",
+      "地点",
+      "参礼人员",
+      "结婚双方"
+    ],
+    "人生-结婚": [
+      "时间",
+      "结婚双方"
+    ],
+    "人生-离婚": [
+      "时间",
+      "离婚双方"
+    ],
+    "人生-庆生": [
+      "时间",
+      "生日方",
+      "生日方年龄",
+      "庆祝方"
+    ],
+    "人生-求婚": [
+      "时间",
+      "求婚者",
+      "求婚对象"
+    ],
+    "人生-失联": [
+      "时间",
+      "地点",
+      "失联者"
+    ],
+    "人生-死亡": [
+      "时间",
+      "地点",
+      "死者年龄",
+      "死者"
+    ],
+    "司法行为-罚款": [
+      "时间",
+      "罚款对象",
+      "执法机构",
+      "罚款金额"
+    ],
+    "司法行为-拘捕": [
+      "时间",
+      "拘捕者",
+      "被拘捕者"
+    ],
+    "司法行为-举报": [
+      "时间",
+      "举报发起方",
+      "举报对象"
+    ],
+    "司法行为-开庭": [
+      "时间",
+      "开庭法院",
+      "开庭案件"
+    ],
+    "司法行为-立案": [
+      "时间",
+      "立案机构",
+      "立案对象"
+    ],
+    "司法行为-起诉": [
+      "时间",
+      "被告",
+      "原告"
+    ],
+    "司法行为-入狱": [
+      "时间",
+      "入狱者",
+      "刑期"
+    ],
+    "司法行为-约谈": [
+      "时间",
+      "约谈对象",
+      "约谈发起方"
+    ],
+    "灾害/意外-爆炸": [
+      "时间",
+      "地点",
+      "死亡人数",
+      "受伤人数"
+    ],
+    "灾害/意外-车祸": [
+      "时间",
+      "地点",
+      "死亡人数",
+      "受伤人数"
+    ],
+    "灾害/意外-地震": [
+      "时间",
+      "死亡人数",
+      "震级",
+      "震源深度",
+      "震中",
+      "受伤人数"
+    ],
+    "灾害/意外-洪灾": [
+      "时间",
+      "地点",
+      "死亡人数",
+      "受伤人数"
+    ],
+    "灾害/意外-起火": [
+      "时间",
+      "地点",
+      "死亡人数",
+      "受伤人数"
+    ],
+    "灾害/意外-坍/垮塌": [
+      "时间",
+      "坍塌主体",
+      "死亡人数",
+      "受伤人数"
+    ],
+    "灾害/意外-袭击": [
+      "时间",
+      "地点",
+      "袭击对象",
+      "死亡人数",
+      "袭击者",
+      "受伤人数"
+    ],
+    "灾害/意外-坠机": [
+      "时间",
+      "地点",
+      "死亡人数",
+      "受伤人数"
+    ],
+    "组织关系-裁员": [
+      "时间",
+      "裁员方",
+      "裁员人数"
+    ],
+    "组织关系-辞/离职": [
+      "时间",
+      "离职者",
+      "原所属组织"
+    ],
+    "组织关系-加盟": [
+      "时间",
+      "加盟者",
+      "所加盟组织"
+    ],
+    "组织关系-解雇": [
+      "时间",
+      "解雇方",
+      "被解雇人员"
+    ],
+    "组织关系-解散": [
+      "时间",
+      "解散方"
+    ],
+    "组织关系-解约": [
+      "时间",
+      "被解约方",
+      "解约方"
+    ],
+    "组织关系-停职": [
+      "时间",
+      "所属组织",
+      "停职人员"
+    ],
+    "组织关系-退出": [
+      "时间",
+      "退出方",
+      "原所属组织"
+    ],
+    "组织行为-罢工": [
+      "时间",
+      "所属组织",
+      "罢工人数",
+      "罢工人员"
+    ],
+    "组织行为-闭幕": [
+      "时间",
+      "地点",
+      "活动名称"
+    ],
+    "组织行为-开幕": [
+      "时间",
+      "地点",
+      "活动名称"
+    ],
+    "组织行为-游行": [
+      "时间",
+      "地点",
+      "游行组织",
+      "游行人数"
+    ]
+  }
+}
